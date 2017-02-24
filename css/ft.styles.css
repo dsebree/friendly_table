@@ -1,0 +1,29 @@
+.ft-table th, .ft-table td {
+    display: none;
+    border-width: 0 !important;
+}
+.ft-table td.ft-show {
+    display: block;
+    padding-top: 0;
+}
+.ft-table td:first-child {
+    border-top-width: 1px !important;
+    display: block;
+    float: none;
+    width: 100%;
+}
+.ft-table tr {
+    display: block;
+}
+.ft-table .ft-title {
+    display: block;
+    font-size: .7em;
+}
+.ft-table .ft-expand .glyphicon {
+    display: block;
+    float: right;
+}
+.ft-title,
+.ft-expand .glyphicon {
+    display: none;
+}
